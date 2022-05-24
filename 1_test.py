@@ -1,5 +1,5 @@
 from telegram.ext import Updater
-from accounts import accounts
+#from accounts import accounts
 from telegram.ext import Updater
 from upbitpy import Upbitpy
 import time
@@ -7,8 +7,8 @@ import datetime
 import logging
 
 INTERVAL_MIN = 1
-CHAT_ID = accounts.TELEGRAM_MY_CHAT_ID
-TELEGRAM_BOT_TOKEN = accounts.TELEGRAM_DEV_DEMO_BOT
+CHAT_ID = 5000365041
+TELEGRAM_BOT_TOKEN = "5380746174:AAH9Gt2rr--yl65-t9ueZ32XLq23A-l3kEQ"
 
 def wait(min):
     now = datetime.datetime.now()
