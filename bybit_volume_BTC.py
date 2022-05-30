@@ -8,7 +8,7 @@ import datetime as pydatetime
 # ######################
 import telegram
 bot = telegram.Bot(token='5380746174:AAH9Gt2rr--yl65-t9ueZ32XLq23A-l3kEQ')
-chat_id =5000365041 
+chat_id =-1001594234294 
 # ######################
 session = HTTP(
     endpoint='https://api.bybit.com', 

@@ -8,7 +8,7 @@ import datetime as pydatetime
 # ######################
 import telegram
 bot = telegram.Bot(token='5380746174:AAH9Gt2rr--yl65-t9ueZ32XLq23A-l3kEQ')
-chat_id =5000365041 
+chat_id =-1001594234294 
 # ######################
 session = HTTP(
     endpoint='https://api.bybit.com', 
@@ -38,7 +38,8 @@ while True:
         # print("volume_2=>",volume_2)
         # msg = ""+symbol+"-"+str(set_time)+"s 동안 "+str(round(change_1m))+"% 변동"
         # bot.sendMessage(chat_id=chat_id, text=msg)
-        if (change_1m >700):
+        print("zil->",change_1m)
+        if (change_1m >1000):
             print("거래량 급등 알림-",abs(change_1m))
             msg = ""+symbol+"-"+str(set_time)+"s 동안 "+str(round(change_1m))+"% 상승"
             bot.sendMessage(chat_id=chat_id, text=msg)
